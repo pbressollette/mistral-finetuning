@@ -44,10 +44,10 @@ python your_path/evaluate.py
 ### Training Curves
 
 After the 45 minutes training of my model, I plotted these curves : 
-![](llm_finetunning/results/plots/final_plots/01_train_loss.png), 
-![](llm_finetunning/results/plots/final_plots/02_validation_loss.png), 
-![](llm_finetunning/results/plots/final_plots/03_learning_rate.png), 
-![](llm_finetunning/results/plots/final_plots/05_validation_perplexity.png)
+![](results/plots/final_plots/01_train_loss.png), 
+![](results/plots/final_plots/02_validation_loss.png), 
+![](results/plots/final_plots/03_learning_rate.png), 
+![](results/plots/final_plots/05_perplexity.png)
 
 One can see that the training loss decreases with the number of steps. This is natural and ensures us that the model trains well.
 However, one can also observe that the validation loss increases after step 75, which indicates overfitting.

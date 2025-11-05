@@ -1,6 +1,7 @@
 # Modèles
 results/models/
 results/comparaison_test_set
+results/plots/plot_trainer_state.py
 *.pth
 *.bin
 *.safetensors

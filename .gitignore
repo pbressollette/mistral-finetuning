@@ -1,0 +1,20 @@
+# Modèles
+results/models/
+results/comparaison_test_set
+*.pth
+*.bin
+*.safetensors
+
+# Données 
+data/test.json
+data/train.json
+data/validation.json
+
+# Python
+__pycache__/
+*.pyc
+venv/
+
+# Système
+.DS_Store
+.ipynb_checkpoints/
